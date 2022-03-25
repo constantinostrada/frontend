@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+header {
+    width: 100%;
+    height: 160px;
+    background-color:#222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 7px 15px -3px #000 ;
+}
+header img {
+    margin-left: 25px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+nav ul li {
+    display: flex;
+    margin-right: 20px;
+    color: aliceblue;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: gray;
+    padding:100px 0;
+}
+.seccion1 {
+    position: relative;
+    
+
+}
+.seccion1 img {
+    width: 100%;
+    
+    max-width: 100%;
+    
+}
+.fabripro {
+    color: red;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 24px;
+
+}
+.seccion1 p span {
+    color: white;
+}
+
+
+.seccion2 {
+    
+    width: 490px;
+    height: 350px;
+    background-color: white;
+}
+
+.seccion2 h2 {
+    margin-left: 45px;
+    padding: 20px 20px;
+    color: red;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.seccion2  h3 {
+    margin: 24px 64px ;
+    font-size: 20px;
+    
+}
+.confabri{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.confabri ol li {
+    padding-right: 130px;
+    
+    
+}
+.contenedor {
+    background-color: #222222;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+.contenedor nav ul {
+    font-size: 22px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.contenedor nav ul li {
+    margin-bottom: 18px;
+}
+.contenedor div {
+    margin-top: 43px;
+    margin-right: 35px;
+}
